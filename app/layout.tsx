@@ -19,13 +19,13 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Akshay S — Software Engineer",
+  title: "Akshay S — Frontend Developer",
   description:
-    "Software Engineer specializing in Next.js, React, and Vue frontend architecture — scalable UI, performance optimization, and secure authentication pipelines.",
+    "Frontend Developer specializing in Next.js, React, and Vue frontend architecture — scalable UI, performance optimization, and secure authentication pipelines.",
   openGraph: {
-    title: "Akshay S — Software Engineer",
+    title: "Akshay S — Frontend Developer",
     description:
-      "Software Engineer specializing in Next.js, React, and Vue frontend architecture.",
+      "Frontend Developer specializing in Next.js, React, and Vue frontend architecture.",
     type: "website",
   },
 };

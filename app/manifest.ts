@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Akshay S — Software Engineer",
+    name: "Akshay S — Frontend Developer",
     short_name: "Akshay S",
     description:
-      "Portfolio of Akshay S, a Software Engineer specializing in Next.js, React, and Vue frontend architecture.",
+      "Portfolio of Akshay S, a Frontend Developer specializing in Next.js, React, and Vue frontend architecture.",
     start_url: "/",
     display: "standalone",
     background_color: "#0a192f",

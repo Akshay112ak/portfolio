@@ -1,13 +1,13 @@
 export const profile = {
   name: "Akshay S",
-  role: "Software Engineer",
+  role: "Frontend Developer",
   tagline: "I build fast, scalable frontends.",
   location: "Thiruvananthapuram, Kerala",
   email: "akshayakshay123401@gmail.com",
  
   resumeHref: "/Akshay_S_Resume.pdf",
   summary:
-    "Results-oriented Software Engineer with 2+ years of experience specializing in modern frontend architecture and scalable web applications. Highly skilled in the React ecosystem (Next.js, React.js) and Vue.js, with a proven track record of optimizing application performance and managing complex state. Adept at handling large-scale data processing, secure authentication pipelines (JWT, NextAuth), and advanced API integrations (TanStack Query) to deliver seamless, high-performance user experiences.",
+    "Results-oriented Frontend Developer with 2+ years of experience specializing in modern frontend architecture and scalable web applications. Highly skilled in the React ecosystem (Next.js, React.js) and Vue.js, with a proven track record of optimizing application performance and managing complex state. Adept at handling large-scale data processing, secure authentication pipelines (JWT, NextAuth), and advanced API integrations (TanStack Query) to deliver seamless, high-performance user experiences.",
 };
 
 export const socials = [
