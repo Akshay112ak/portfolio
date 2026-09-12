@@ -6,6 +6,7 @@ import Spotlight from "@/components/Spotlight";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import CustomCursor from "@/components/CustomCursor";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -46,6 +47,7 @@ export default function RootLayout({
         <CustomCursor />
         <Spotlight />
         <SmoothScroll>{children}</SmoothScroll>
+        <Analytics />
       </body>
     </html>
   );
