@@ -48,28 +48,31 @@ export const skills = [
   "NextAuth.js / JWT",
   "SSR / SSG / SEO",
   "Code Splitting & Lazy Loading",
+  "Tailwind CSS",
+  "Framer Motion",
 ];
 
 export const experience = [
   {
     company: "Eloit Innovations Pvt. Ltd.",
     companyHref: "https://eloit.com/",
-    title: "Software Engineer",
-    range: "October 2024 — Present",
+    title: "Frontend Developer",
+    range: "October 2024 - Present",
     bullets: [
       "Spearheaded a Next.js ERP frontend, implementing advanced state management, dynamic routing, and JWT/NextAuth authentication.",
-      "Engineered batch processing with @react-pdf/renderer for 200+ simultaneous PDFs and streamed 500+ record bulk Excel uploads, ensuring zero UI blocking.",
+      "Engineered batch processing for 200+ simultaneous PDFs and streamed 500+ record bulk Excel uploads, ensuring zero UI blocking.",
       "Integrated REST APIs using TanStack Query for optimal caching and implemented DOM virtualization to smoothly render massive datasets.",
       "Developed a customizable report card module in Vue.js, streamlining complex data entry and real-time validation.",
       "Engineered scalable Role-Based Access Control (RBAC) on the frontend via NextAuth, dynamically rendering UI by authorization level.",
+      "Developed responsive websites with Next.js, Tailwind CSS, SCSS, and Framer Motion.",
     ],
-    tech: ["Next.js", "React", "Vue.js", "TanStack Query", "NextAuth.js", "SCSS"],
+    tech: ["Next.js", "React", "Vue.js", "TanStack Query", "NextAuth.js", "SCSS", "Tailwind CSS", "Framer Motion"],
   },
   {
     company: "Mashupstack",
     companyHref: "https://www.mashupstack.com/",
     title: "Full Stack Developer Intern",
-    range: "December 2023 — September 2024",
+    range: "December 2023 - September 2024",
     bullets: [
       "Built responsive React single-page applications, engineering robust backend REST APIs via Express.js and Node.js.",
       "Implemented Firebase Cloud Firestore for scalable database storage and configured secure user authentication.",
@@ -81,17 +84,17 @@ export const experience = [
 export const projects = [
   {
     title: "Eloit Websuite (EWS)",
-    copy: "A Next.js-based platform offering 30+ school-specific website templates. Users input data once through structured, mapped form fields — template switching preserves all entered data, eliminating re-entry. Built with dynamic routing, server-side rendering, and CI/CD pipelines via Azure DevOps for scalable, SEO-optimized delivery.",
-    tech: ["Next.js", "SSR", "Azure DevOps CI/CD", "Multi-tenant"],
+    copy: "A Next.js-based platform offering 30+ school-specific website templates. Users input data once through structured, mapped form fields - template switching preserves all entered data, eliminating re-entry. Built with dynamic routing, server-side rendering, and CI/CD pipelines via Azure DevOps for scalable, SEO-optimized delivery.",
+    tech: ["Next.js", "SSR", "Azure DevOps CI/CD", "Multi-tenant", "Tailwind CSS", "Framer Motion"],
     links: [
       { label: "St. Antony's PS", href: "https://www.saps.edu.in/" },
-      { label: "St. Mary's FSG", href: "https://mfsg.ews.ac/" },
+      { label: "Don Bosco Siliguri", href: "https://www.dbssiliguri.in/" },
       { label: "MCC Sarvi", href: "https://www.mccsarvi.edu.in/" },
     ],
   },
   {
-    title: "Kristapp — Church Management SaaS",
-    copy: "A multi-tenant Church Management System (ChMS) serving dioceses, parishes, and congregations worldwide — unifying church software, mobile apps, website CMS, and private social media in one platform. Built the Family Bulk Upload system (Excel template import with real-time validation and dynamic dropdown population), NextAuth.js with multi-factor authentication (email/SMS OTP), role-based access control across 10+ roles, and integrated 300+ REST API routes with SunEditor for content management and ExcelJS for data export.",
+    title: "Kristapp - Church Management SaaS",
+    copy: "A multi-tenant Church Management System (ChMS) serving dioceses, parishes, and congregations worldwide - unifying church software, mobile apps, website CMS, and private social media in one platform. Built the Family Bulk Upload system (Excel template import with real-time validation and dynamic dropdown population), NextAuth.js with multi-factor authentication (email/SMS OTP), role-based access control across 10+ roles, and integrated 300+ REST API routes with SunEditor for content management and ExcelJS for data export.",
     tech: ["Next.js", "Multi-tenant SaaS", "NextAuth.js MFA", "RBAC", "ExcelJS"],
     links: [
       { label: "Live Example", href: "https://dbshrinehyd.kristapp.com/" },
@@ -99,7 +102,7 @@ export const projects = [
   },
   {
     title: "Holistic Progress Card (HPC)",
-    copy: "A Vue.js-based CBSE report card module for Edisapp, the school ERP, offering multiple customizable templates. Structured data-entry interfaces for marks, teacher feedback, and parent/student comments automate holistic report generation — streamlining admin workflows while keeping CBSE compliance and per-institution flexibility.",
+    copy: "A Vue.js-based CBSE report card module for Edisapp, the school ERP, offering multiple customizable templates. Structured data-entry interfaces for marks, teacher feedback, and parent/student comments automate holistic report generation - streamlining admin workflows while keeping CBSE compliance and per-institution flexibility.",
     tech: ["Vue.js", "Edisapp ERP", "CBSE Compliance"],
     links: [
       {
@@ -110,8 +113,8 @@ export const projects = [
   },
   {
     title: "Bulk PDF & Excel Pipeline",
-    copy: "Batch-processed 200+ simultaneous PDFs with @react-pdf/renderer and streamed 500+ record Excel uploads without blocking the UI.",
-    tech: ["React", "@react-pdf/renderer", "Data Streaming"],
+    copy: "Batch-processed 200+ simultaneous PDFs with a custom rendering pipeline and streamed 500+ record Excel uploads without blocking the UI.",
+    tech: ["React", "PDF Batching", "Data Streaming"],
     links: [],
   },
 ];
@@ -120,17 +123,17 @@ export const education = [
   {
     degree: "Master of Computer Applications (MCA)",
     school: "C.H.M.M College For Advanced Studies",
-    range: "2021 — 2023",
+    range: "2021 - 2023",
   },
   {
     degree: "Bachelor of Computer Science (BSc)",
     school: "C.H.M.M College For Advanced Studies",
-    range: "2017 — 2020",
+    range: "2017 - 2020",
   },
 ];
 
 export const certifications = [
-  "HTML, CSS, and JavaScript for Web Developers — Johns Hopkins University (Coursera)",
-  "Introduction to C Programming — NPTEL (IIT-level certification)",
-  "MERN Stack Development — Mashupstack",
+  "HTML, CSS, and JavaScript for Web Developers - Johns Hopkins University (Coursera)",
+  "Introduction to C Programming - NPTEL (IIT-level certification)",
+  "MERN Stack Development - Mashupstack",
 ];

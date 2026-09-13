@@ -23,7 +23,7 @@ export default function Education() {
             <h3 className="font-semibold text-lightest-slate">{e.degree}</h3>
             <p className="text-sm text-slate mt-1">
               {e.school}
-              <span className="font-mono"> — {e.range}</span>
+              <span className="font-mono"> - {e.range}</span>
             </p>
           </li>
         ))}
